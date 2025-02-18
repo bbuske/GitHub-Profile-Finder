@@ -1,0 +1,135 @@
+body {
+    margin: 10px;
+    background: #33333f;
+}
+
+h1 {
+   color: #ffffff;
+   text-align: center;
+}
+
+p {
+    color: #ffffff;
+    text-align: center;
+}
+
+form.form-group {
+    display: grid;
+    place-items: center;
+    background: #f6f6f6;
+    margin-top: 30px;
+    margin-left: 25%;
+    padding: 50px;
+    width: 50%;
+    border-radius: 30px;
+}
+
+input#username {
+    width: 50%;
+    border-color: #585858;
+    border-radius: 10px;
+}
+
+button.form-control {
+    margin-bottom: 10px;
+    width: 50%;
+    display: inline;
+    background: #4b93ff;
+    color: #ffffff;
+    border-color: #585858;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+input#reset {
+    width: 50%;
+    border-radius: 50px;
+    border-color: #585858;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffff11;
+}
+
+div.col-md-3 {
+    text-align: center;
+}
+
+.label-danger, .label-short, .label-long, .label-warning, .url, .link {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.url {
+    width: 50px;
+}
+
+.link {
+    width: 100px;
+}
+
+.label-danger {
+    width: 250px;
+    border-radius: 50px;
+}
+
+.label-warning {
+    color: #272727;
+}
+
+.label-warning a {
+    color: #272727
+}
+
+.label-short {
+    width: 10%;
+    text-align: right;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.label-long {
+    width: 86%;
+    text-align: left;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+ul {
+    margin-top: 10px;
+    list-style: none;
+}
+
+span.li-header {
+    display: inline-block;
+    font-weight: bold;
+    width: 100px;
+}
+
+div#profile {
+    margin: auto;
+    width: 80%;
+}
+
+div.panel {
+    border-radius: 30px;
+}
+
+a#visit {
+    background: #4b93ff;
+    color: #ffffff;
+    border-radius: 50px;
+    display: grid;
+    align-self: center;
+    font-weight: bold;
+}
